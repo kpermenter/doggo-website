@@ -1,0 +1,39 @@
+API 
+• API = endpoint ==> full url
+- everything is an endpoint
+- url (full qualified domain)
+- uri (part after domain)
+    - domain is base path: stays the same
+    - uri changes
+- interface between enpoint (url/path) and code
+- many websites code APIs for public consumption in dev documentation (give endpoints)
+
+Terminology
+• Post = sending || submitting || commit
+    - i.e. commit repo
+    - request returns JSON
+    - create something new
+• Get = fetch ==> gathers || retrieve
+    - i.e. cloning repo
+    - getting data from server
+• Put = putting
+    - updating something
+• Delete = delete
+• Patch = sending
+
+Endpoint:
+https://dog.ceo/api/breed/${breed}/images/random
+{breed} = parameter
+
+Headers.request
+• info about request going out and coming back
+    - get method for requests going out
+    - to change to patch method ==> must be coded that way
+    - patch vs. put method ==> depends on dev preference
+
+
+Sync
+
+
+Async
+• takes time
